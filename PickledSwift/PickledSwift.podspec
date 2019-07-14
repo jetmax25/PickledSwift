@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PickledSwift"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "My shared code for pickled games"
 
 spec.ios.deployment_target = "12.1"
