@@ -23,7 +23,7 @@ open class ReusableView: UIView {
         setUp()
     }
     
-    internal func setUp() {
+    open func setUp() {
         loadNibContent()
     }
     
