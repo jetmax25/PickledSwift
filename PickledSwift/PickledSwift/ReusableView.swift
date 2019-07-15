@@ -48,3 +48,7 @@ open class ReusableView: UIView {
         addConstraints(verticalConstraints + horizontalConstraints)
     }
 }
+
+protocol Initializing {
+    func setUp()
+}
