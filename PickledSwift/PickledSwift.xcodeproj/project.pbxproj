@@ -8,21 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		271FF62322DAD8F300888625 /* StoredProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271FF62222DAD8F300888625 /* StoredProperty.swift */; };
-		2724F78622DD3FC800500F03 /* PickledSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F78522DD3FC800500F03 /* PickledSegmentedControl.swift */; };
-		2724F78822DD3FDF00500F03 /* PickledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F78722DD3FDF00500F03 /* PickledTextField.swift */; };
-		2724F78A22DD3FF100500F03 /* PickledSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F78922DD3FF100500F03 /* PickledSlider.swift */; };
-		2724F78C22DD401000500F03 /* PickledSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F78B22DD401000500F03 /* PickledSwitch.swift */; };
-		2724F78F22DD425E00500F03 /* PickledSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F78E22DD425E00500F03 /* PickledSearchBar.swift */; };
-		2724F79322DD433200500F03 /* HorizontalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F79222DD433200500F03 /* HorizontalPicker.swift */; };
-		2724F79622DD43CE00500F03 /* UIImage+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F79522DD43CE00500F03 /* UIImage+Download.swift */; };
-		2724F79822DD43DE00500F03 /* UIImage+ContentClippingRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F79722DD43DE00500F03 /* UIImage+ContentClippingRect.swift */; };
-		2724F79D22DD450400500F03 /* UILabel+FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F79C22DD450400500F03 /* UILabel+FontSize.swift */; };
-		2792858B22DD3857005A8285 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2792858A22DD3857005A8285 /* Device.swift */; };
-		2792858D22DD3861005A8285 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2792858C22DD3861005A8285 /* Color.swift */; };
-		2792859022DD38F4005A8285 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2792858F22DD38F4005A8285 /* UIColor+Hex.swift */; };
-		2792859322DD3B1E005A8285 /* UIColor+Pallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2792859222DD3B1E005A8285 /* UIColor+Pallet.swift */; };
-		2792859622DD3E62005A8285 /* PickledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2792859522DD3E62005A8285 /* PickledButton.swift */; };
-		2792859822DD3E81005A8285 /* PickledLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2792859722DD3E81005A8285 /* PickledLabel.swift */; };
+		2724F7AA22DD650500500F03 /* PickledSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A222DD650400500F03 /* PickledSlider.swift */; };
+		2724F7AB22DD650500500F03 /* PickledSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A322DD650400500F03 /* PickledSegmentedControl.swift */; };
+		2724F7AC22DD650500500F03 /* PickledSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A422DD650400500F03 /* PickledSearchBar.swift */; };
+		2724F7AD22DD650500500F03 /* PickledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A522DD650500500F03 /* PickledTextField.swift */; };
+		2724F7AE22DD650500500F03 /* PickledSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 2724F7A622DD650500500F03 /* PickledSwift.h */; };
+		2724F7AF22DD650500500F03 /* PickledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A722DD650500500F03 /* PickledButton.swift */; };
+		2724F7B022DD650500500F03 /* PickledLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A822DD650500500F03 /* PickledLabel.swift */; };
+		2724F7B122DD650500500F03 /* PickledSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A922DD650500500F03 /* PickledSwitch.swift */; };
+		2724F7B822DD655500500F03 /* UILabel+FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7B322DD655500500F03 /* UILabel+FontSize.swift */; };
+		2724F7BD22DD658200500F03 /* HorizontalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7BC22DD658200500F03 /* HorizontalPicker.swift */; };
+		2724F7C122DD65B300500F03 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7C022DD65B300500F03 /* Device.swift */; };
+		2724F7C422DD65E000500F03 /* UIImage+ContentClippingRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7C222DD65E000500F03 /* UIImage+ContentClippingRect.swift */; };
+		2724F7C522DD65E000500F03 /* UIImage+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7C322DD65E000500F03 /* UIImage+Download.swift */; };
+		2724F7C722DD661D00500F03 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7C622DD661D00500F03 /* Device.swift */; };
+		2724F7CE22DD674000500F03 /* UIColor+Pallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7CD22DD674000500F03 /* UIColor+Pallet.swift */; };
+		2724F7D222DD67AB00500F03 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7D122DD67AB00500F03 /* UIColor+Hex.swift */; };
 		27D9DBA122DACD4200762AD0 /* PickledSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D9DB9F22DACD4200762AD0 /* PickledSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27D9DBAE22DACD7200762AD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9DBAD22DACD7200762AD0 /* AppDelegate.swift */; };
 		27D9DBB022DACD7200762AD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9DBAF22DACD7200762AD0 /* ViewController.swift */; };
@@ -35,21 +36,22 @@
 
 /* Begin PBXFileReference section */
 		271FF62222DAD8F300888625 /* StoredProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredProperty.swift; sourceTree = "<group>"; };
-		2724F78522DD3FC800500F03 /* PickledSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickledSegmentedControl.swift; sourceTree = "<group>"; };
-		2724F78722DD3FDF00500F03 /* PickledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickledTextField.swift; sourceTree = "<group>"; };
-		2724F78922DD3FF100500F03 /* PickledSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickledSlider.swift; sourceTree = "<group>"; };
-		2724F78B22DD401000500F03 /* PickledSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickledSwitch.swift; sourceTree = "<group>"; };
-		2724F78E22DD425E00500F03 /* PickledSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickledSearchBar.swift; sourceTree = "<group>"; };
-		2724F79222DD433200500F03 /* HorizontalPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalPicker.swift; sourceTree = "<group>"; };
-		2724F79522DD43CE00500F03 /* UIImage+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Download.swift"; sourceTree = "<group>"; };
-		2724F79722DD43DE00500F03 /* UIImage+ContentClippingRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ContentClippingRect.swift"; sourceTree = "<group>"; };
-		2724F79C22DD450400500F03 /* UILabel+FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+FontSize.swift"; sourceTree = "<group>"; };
-		2792858A22DD3857005A8285 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
-		2792858C22DD3861005A8285 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		2792858F22DD38F4005A8285 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
-		2792859222DD3B1E005A8285 /* UIColor+Pallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Pallet.swift"; sourceTree = "<group>"; };
-		2792859522DD3E62005A8285 /* PickledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickledButton.swift; sourceTree = "<group>"; };
-		2792859722DD3E81005A8285 /* PickledLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickledLabel.swift; sourceTree = "<group>"; };
+		2724F7A222DD650400500F03 /* PickledSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledSlider.swift; path = PickledSwift/PickledSlider.swift; sourceTree = SOURCE_ROOT; };
+		2724F7A322DD650400500F03 /* PickledSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledSegmentedControl.swift; path = PickledSwift/PickledSegmentedControl.swift; sourceTree = SOURCE_ROOT; };
+		2724F7A422DD650400500F03 /* PickledSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledSearchBar.swift; path = PickledSwift/PickledSearchBar.swift; sourceTree = SOURCE_ROOT; };
+		2724F7A522DD650500500F03 /* PickledTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledTextField.swift; path = PickledSwift/PickledTextField.swift; sourceTree = SOURCE_ROOT; };
+		2724F7A622DD650500500F03 /* PickledSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickledSwift.h; path = PickledSwift/PickledSwift.h; sourceTree = SOURCE_ROOT; };
+		2724F7A722DD650500500F03 /* PickledButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledButton.swift; path = PickledSwift/PickledButton.swift; sourceTree = SOURCE_ROOT; };
+		2724F7A822DD650500500F03 /* PickledLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledLabel.swift; path = PickledSwift/PickledLabel.swift; sourceTree = SOURCE_ROOT; };
+		2724F7A922DD650500500F03 /* PickledSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledSwitch.swift; path = PickledSwift/PickledSwitch.swift; sourceTree = SOURCE_ROOT; };
+		2724F7B322DD655500500F03 /* UILabel+FontSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel+FontSize.swift"; path = "PickledSwift/UILabel+FontSize.swift"; sourceTree = SOURCE_ROOT; };
+		2724F7BC22DD658200500F03 /* HorizontalPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HorizontalPicker.swift; path = PickledSwift/HorizontalPicker.swift; sourceTree = SOURCE_ROOT; };
+		2724F7C022DD65B300500F03 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		2724F7C222DD65E000500F03 /* UIImage+ContentClippingRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+ContentClippingRect.swift"; path = "PickledSwift/UIImage+ContentClippingRect.swift"; sourceTree = SOURCE_ROOT; };
+		2724F7C322DD65E000500F03 /* UIImage+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Download.swift"; path = "PickledSwift/UIImage+Download.swift"; sourceTree = SOURCE_ROOT; };
+		2724F7C622DD661D00500F03 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Device.swift; path = PickledSwift/Device.swift; sourceTree = SOURCE_ROOT; };
+		2724F7CD22DD674000500F03 /* UIColor+Pallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+Pallet.swift"; path = "PickledSwift/UIColor+Pallet.swift"; sourceTree = SOURCE_ROOT; };
+		2724F7D122DD67AB00500F03 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "PickledSwift/UIColor+Hex.swift"; sourceTree = SOURCE_ROOT; };
 		27D9DB9C22DACD4200762AD0 /* PickledSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PickledSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D9DB9F22DACD4200762AD0 /* PickledSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickledSwift.h; sourceTree = "<group>"; };
 		27D9DBA022DACD4200762AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,7 +87,7 @@
 		2724F79022DD430800500F03 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2724F79222DD433200500F03 /* HorizontalPicker.swift */,
+				2724F7BC22DD658200500F03 /* HorizontalPicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,8 +95,8 @@
 		2724F79422DD43BD00500F03 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				2792858F22DD38F4005A8285 /* UIColor+Hex.swift */,
-				2792859222DD3B1E005A8285 /* UIColor+Pallet.swift */,
+				2724F7D122DD67AB00500F03 /* UIColor+Hex.swift */,
+				2724F7CD22DD674000500F03 /* UIColor+Pallet.swift */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -102,24 +104,16 @@
 		2724F79922DD43E200500F03 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				2724F79522DD43CE00500F03 /* UIImage+Download.swift */,
-				2724F79722DD43DE00500F03 /* UIImage+ContentClippingRect.swift */,
+				2724F7C222DD65E000500F03 /* UIImage+ContentClippingRect.swift */,
+				2724F7C322DD65E000500F03 /* UIImage+Download.swift */,
 			);
 			path = UIImage;
-			sourceTree = "<group>";
-		};
-		2792858822DD3386005A8285 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		2792858922DD384B005A8285 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
-				2792858A22DD3857005A8285 /* Device.swift */,
-				2792858C22DD3861005A8285 /* Color.swift */,
+				2724F7C622DD661D00500F03 /* Device.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -127,9 +121,9 @@
 		2792858E22DD38E2005A8285 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2724F7B322DD655500500F03 /* UILabel+FontSize.swift */,
 				2724F79922DD43E200500F03 /* UIImage */,
 				2724F79422DD43BD00500F03 /* UIColor */,
-				2724F79C22DD450400500F03 /* UILabel+FontSize.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -137,13 +131,13 @@
 		2792859422DD3E3F005A8285 /* PickledViews */ = {
 			isa = PBXGroup;
 			children = (
-				2792859522DD3E62005A8285 /* PickledButton.swift */,
-				2792859722DD3E81005A8285 /* PickledLabel.swift */,
-				2724F78522DD3FC800500F03 /* PickledSegmentedControl.swift */,
-				2724F78722DD3FDF00500F03 /* PickledTextField.swift */,
-				2724F78922DD3FF100500F03 /* PickledSlider.swift */,
-				2724F78B22DD401000500F03 /* PickledSwitch.swift */,
-				2724F78E22DD425E00500F03 /* PickledSearchBar.swift */,
+				2724F7A722DD650500500F03 /* PickledButton.swift */,
+				2724F7A822DD650500500F03 /* PickledLabel.swift */,
+				2724F7A422DD650400500F03 /* PickledSearchBar.swift */,
+				2724F7A322DD650400500F03 /* PickledSegmentedControl.swift */,
+				2724F7A222DD650400500F03 /* PickledSlider.swift */,
+				2724F7A922DD650500500F03 /* PickledSwitch.swift */,
+				2724F7A522DD650500500F03 /* PickledTextField.swift */,
 			);
 			path = PickledViews;
 			sourceTree = "<group>";
@@ -173,12 +167,13 @@
 				2792859422DD3E3F005A8285 /* PickledViews */,
 				2792858E22DD38E2005A8285 /* Extensions */,
 				2792858922DD384B005A8285 /* Enum */,
-				2792858822DD3386005A8285 /* Protocols */,
 				27D9DBBF22DAD2AD00762AD0 /* PickledSwift.podspec */,
 				27D9DB9F22DACD4200762AD0 /* PickledSwift.h */,
+				2724F7A622DD650500500F03 /* PickledSwift.h */,
 				27D9DBA022DACD4200762AD0 /* Info.plist */,
 				27D9DBBD22DACE2000762AD0 /* ReusableView.swift */,
 				271FF62222DAD8F300888625 /* StoredProperty.swift */,
+				2724F7C022DD65B300500F03 /* Device.swift */,
 			);
 			path = PickledSwift;
 			sourceTree = "<group>";
@@ -204,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27D9DBA122DACD4200762AD0 /* PickledSwift.h in Headers */,
+				2724F7AE22DD650500500F03 /* PickledSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,23 +305,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2724F78622DD3FC800500F03 /* PickledSegmentedControl.swift in Sources */,
-				2792859622DD3E62005A8285 /* PickledButton.swift in Sources */,
-				2724F79D22DD450400500F03 /* UILabel+FontSize.swift in Sources */,
-				2792859822DD3E81005A8285 /* PickledLabel.swift in Sources */,
-				2792859022DD38F4005A8285 /* UIColor+Hex.swift in Sources */,
-				2724F78822DD3FDF00500F03 /* PickledTextField.swift in Sources */,
-				2724F79822DD43DE00500F03 /* UIImage+ContentClippingRect.swift in Sources */,
-				2724F79322DD433200500F03 /* HorizontalPicker.swift in Sources */,
-				2792859322DD3B1E005A8285 /* UIColor+Pallet.swift in Sources */,
-				2724F78A22DD3FF100500F03 /* PickledSlider.swift in Sources */,
-				2792858B22DD3857005A8285 /* Device.swift in Sources */,
-				2724F78F22DD425E00500F03 /* PickledSearchBar.swift in Sources */,
-				2724F78C22DD401000500F03 /* PickledSwitch.swift in Sources */,
-				2792858D22DD3861005A8285 /* Color.swift in Sources */,
+				2724F7B022DD650500500F03 /* PickledLabel.swift in Sources */,
+				2724F7C722DD661D00500F03 /* Device.swift in Sources */,
+				2724F7AA22DD650500500F03 /* PickledSlider.swift in Sources */,
+				2724F7D222DD67AB00500F03 /* UIColor+Hex.swift in Sources */,
+				2724F7C422DD65E000500F03 /* UIImage+ContentClippingRect.swift in Sources */,
+				2724F7AB22DD650500500F03 /* PickledSegmentedControl.swift in Sources */,
+				2724F7AC22DD650500500F03 /* PickledSearchBar.swift in Sources */,
+				2724F7B122DD650500500F03 /* PickledSwitch.swift in Sources */,
 				27D9DBBE22DACE2000762AD0 /* ReusableView.swift in Sources */,
+				2724F7C522DD65E000500F03 /* UIImage+Download.swift in Sources */,
+				2724F7CE22DD674000500F03 /* UIColor+Pallet.swift in Sources */,
+				2724F7BD22DD658200500F03 /* HorizontalPicker.swift in Sources */,
+				2724F7AD22DD650500500F03 /* PickledTextField.swift in Sources */,
 				271FF62322DAD8F300888625 /* StoredProperty.swift in Sources */,
-				2724F79622DD43CE00500F03 /* UIImage+Download.swift in Sources */,
+				2724F7B822DD655500500F03 /* UILabel+FontSize.swift in Sources */,
+				2724F7AF22DD650500500F03 /* PickledButton.swift in Sources */,
+				2724F7C122DD65B300500F03 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

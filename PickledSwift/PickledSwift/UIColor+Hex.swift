@@ -1,5 +1,5 @@
 //
-//  UIColor_Extensions.swift
+//  UIColor+Hex.swift
 //  PickledSwift
 //
 //  Created by Michael Isasi on 7/15/19.
@@ -36,4 +36,3 @@ extension UIColor {
         return nil
     }
 }
-
