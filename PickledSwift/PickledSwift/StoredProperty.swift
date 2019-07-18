@@ -8,8 +8,8 @@
 
 import Foundation
 enum StoredProperty: String {
-    case login
-    
+    case numLogins
+    case isAdFree
     
     func get<T>() -> T? {
         return UserDefaults.standard.value(forKey: self.rawValue) as? T
@@ -24,8 +24,8 @@ extension StoredProperty {
     
     /// Checks if the app should send a user review, also increases login count
     static var shouldRequestReview: Bool {
-        let logins = (StoredProperty.login.get() ?? 0)
-        StoredProperty.login.set(value: logins + 1)
-        return logins == 2 || ( logins > 0 && logins % 5 == 0)
+        let numLogins = (StoredProperty.numLogins.get() ?? 0)
+        StoredProperty.numLogins.set(value: numLogins + 1)
+        return numLogins == 2 || ( numLogins > 0 && numLogins % 5 == 0)
     }
 }

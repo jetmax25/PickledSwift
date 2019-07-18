@@ -6,7 +6,7 @@
 //  Copyright © 2019 Pickled Games. All rights reserved.
 //
 
-extension UIImageView {
+public extension UIImageView {
     
     /** Get the bounds of the image view that the image is visible in
      - Important: Only works for aspect fit imageviews

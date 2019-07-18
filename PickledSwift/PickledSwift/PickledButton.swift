@@ -8,9 +8,9 @@
 
 import UIKit
 
-class PickledButton: UIButton, Initializing {
+open class PickledButton: UIButton, Initializing {
 
-    override var isEnabled: Bool {
+    override open var isEnabled: Bool {
         didSet {
             self.alpha = self.isEnabled ? 1.0 : 0.3
         }
@@ -21,7 +21,7 @@ class PickledButton: UIButton, Initializing {
         setUp()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setUp()
     }
@@ -38,12 +38,12 @@ class PickledButton: UIButton, Initializing {
         self.titleLabel?.textAlignment = .center
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         setUp()
     }
 
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         self.isSelected.toggle()
     }

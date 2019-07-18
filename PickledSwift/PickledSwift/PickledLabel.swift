@@ -8,14 +8,14 @@
 
 import UIKit
 
-class PickledLabel: UILabel, Initializing {
+open class PickledLabel: UILabel, Initializing {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
         setUp()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setUp()
     }
@@ -26,7 +26,7 @@ class PickledLabel: UILabel, Initializing {
         self.textColor = UIColor.Pallet.text.color
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         setUp()
     }

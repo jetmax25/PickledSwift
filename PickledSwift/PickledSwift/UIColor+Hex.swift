@@ -6,11 +6,11 @@
 //  Copyright © 2019 Pickled Games. All rights reserved.
 //
 
-extension UIColor {
+public extension UIColor {
     /// Initialize with hex string
     /// - Important: Must start with #
     /// - Parameter hexString: hex value of color
-    public convenience init?(hexString: String) {
+    convenience init?(hexString: String) {
         let r, g, b, a: CGFloat
         
         if hexString.hasPrefix("#") {

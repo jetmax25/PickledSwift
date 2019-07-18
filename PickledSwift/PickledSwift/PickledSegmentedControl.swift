@@ -8,9 +8,9 @@
 
 import UIKit
 
-class PickledSegmentedControl: UISegmentedControl, Initializing {
+open class PickledSegmentedControl: UISegmentedControl, Initializing {
 
-    override var isEnabled: Bool {
+    override open var isEnabled: Bool {
         didSet {
             self.alpha = self.isEnabled ? 1.0 : 0.3
         }
@@ -21,7 +21,7 @@ class PickledSegmentedControl: UISegmentedControl, Initializing {
         setUp()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setUp()
     }

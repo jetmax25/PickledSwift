@@ -6,7 +6,7 @@
 //  Copyright © 2019 Pickled Games. All rights reserved.
 //
 
-extension UIImage {
+public extension UIImage {
     
     /// Local cache storage of downloaded images
     static var ImageCache = NSCache<NSString, UIImage>()

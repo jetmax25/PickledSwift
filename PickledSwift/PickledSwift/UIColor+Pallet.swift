@@ -6,7 +6,7 @@
 //  Copyright © 2019 Pickled Games. All rights reserved.
 //
 
-extension UIColor {
+public extension UIColor {
     
     /// Standardized color pallet for an app
     enum Pallet: String {

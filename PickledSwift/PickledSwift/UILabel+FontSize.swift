@@ -6,7 +6,7 @@
 //  Copyright © 2019 Pickled Games. All rights reserved.
 //
 
-extension UILabel {
+public extension UILabel {
     
     /// Gets and sets the standard font size of the label
     var fontSize: CGFloat {
