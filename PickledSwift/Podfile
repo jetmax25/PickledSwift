@@ -6,8 +6,7 @@ target 'PickledSwift' do
   use_frameworks!
 
   # Pods for PickledSwift
-	pod 'SwiftSpinner', '~> 2.0'
-	pod 'SwiftyStoreKit', '~> '0.15'
+
 end
 
 target 'PickledSwiftExamples' do

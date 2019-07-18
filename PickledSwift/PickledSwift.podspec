@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PickledSwift"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.4"
   spec.summary      = "My shared code for pickled games"
 
 spec.ios.deployment_target = "12.1"
@@ -36,6 +36,4 @@ spec.swift_version = "5.0"
 
 
   spec.source_files  = "PickledSwift/**/*.{h,m,swift}"
-spec.dependency 'SwiftSpinner'
-spec.dependency 'SwiftyStoreKit'
 end
