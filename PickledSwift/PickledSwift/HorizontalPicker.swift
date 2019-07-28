@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+/// Picker view that rotates horizontally
 class HorizontalPicker: UIPickerView {
 
     /// UIPickerview but horizontal
