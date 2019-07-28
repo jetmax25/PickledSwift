@@ -9,15 +9,17 @@
 import Foundation
 
 open class PickledViewController: UIViewController, Initializing {
+    
     func setUp() {
         self.hideKeyboardWhenTappedAround()
     }
     
-    
-    override open func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
+        self.setUp()
     }
     
+    /// Sets up a gesture recognizer to remove first responder when VC is tapped
     func hideKeyboardWhenTappedAround() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(PickledViewController.dismissKeyboard))
         tap.cancelsTouchesInView = false

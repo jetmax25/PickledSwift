@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+/// Class that is easily reusable from a nib. Must be named same .swift and .xib, takes care of the rest
 open class ReusableView: UIView {
     public static var nibName: String {
         return String(describing: self)
