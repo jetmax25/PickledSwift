@@ -7,65 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		271FF62322DAD8F300888625 /* StoredProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271FF62222DAD8F300888625 /* StoredProperty.swift */; };
-		2724F7AA22DD650500500F03 /* PickledSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A222DD650400500F03 /* PickledSlider.swift */; };
-		2724F7AB22DD650500500F03 /* PickledSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A322DD650400500F03 /* PickledSegmentedControl.swift */; };
-		2724F7AC22DD650500500F03 /* PickledSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A422DD650400500F03 /* PickledSearchBar.swift */; };
-		2724F7AD22DD650500500F03 /* PickledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A522DD650500500F03 /* PickledTextField.swift */; };
-		2724F7AE22DD650500500F03 /* PickledSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 2724F7A622DD650500500F03 /* PickledSwift.h */; };
-		2724F7AF22DD650500500F03 /* PickledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A722DD650500500F03 /* PickledButton.swift */; };
-		2724F7B022DD650500500F03 /* PickledLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A822DD650500500F03 /* PickledLabel.swift */; };
-		2724F7B122DD650500500F03 /* PickledSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7A922DD650500500F03 /* PickledSwitch.swift */; };
-		2724F7B822DD655500500F03 /* UILabel+FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7B322DD655500500F03 /* UILabel+FontSize.swift */; };
-		2724F7BD22DD658200500F03 /* HorizontalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7BC22DD658200500F03 /* HorizontalPicker.swift */; };
-		2724F7CE22DD674000500F03 /* UIColor+Pallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7CD22DD674000500F03 /* UIColor+Pallet.swift */; };
-		2724F7D222DD67AB00500F03 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724F7D122DD67AB00500F03 /* UIColor+Hex.swift */; };
-		2763E2EA22DD893700D8607D /* PickledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2763E2E922DD893700D8607D /* PickledViewController.swift */; };
-		2763E2EE22DD8B7F00D8607D /* TextFieldDelegate+TextFieldShouldReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2763E2ED22DD8B7F00D8607D /* TextFieldDelegate+TextFieldShouldReturn.swift */; };
-		2763E2F022DD8BF300D8607D /* String+AsUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2763E2EF22DD8BF300D8607D /* String+AsUIColor.swift */; };
-		2763E2F722DD8D0D00D8607D /* Device+ModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2763E2F622DD8D0D00D8607D /* Device+ModelType.swift */; };
-		276CC64522E11A1E008ADDBE /* String+Capitalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CC64422E11A1E008ADDBE /* String+Capitalize.swift */; };
-		2793B6E322E125CC002F4132 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793B6E222E125CC002F4132 /* ReusableView.swift */; };
-		2793B6E522E125ED002F4132 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793B6E422E125ED002F4132 /* UIColor+Hex.swift */; };
-		2793B6E722E125F4002F4132 /* UIColor+Pallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793B6E622E125F4002F4132 /* UIColor+Pallet.swift */; };
-		2793B6E922E12630002F4132 /* Adjacent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793B6E822E12630002F4132 /* Adjacent.swift */; };
-		27A9661522DEBFB2004B3A5B /* UICircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A9661422DEBFB2004B3A5B /* UICircleButton.swift */; };
-		27D9DBA122DACD4200762AD0 /* PickledSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D9DB9F22DACD4200762AD0 /* PickledSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2782EC0122EE2C9F004841CE /* Source in Resources */ = {isa = PBXBuildFile; fileRef = 2782EC0022EE2C9F004841CE /* Source */; };
 		27D9DBAE22DACD7200762AD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9DBAD22DACD7200762AD0 /* AppDelegate.swift */; };
 		27D9DBB022DACD7200762AD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9DBAF22DACD7200762AD0 /* ViewController.swift */; };
 		27D9DBB322DACD7200762AD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D9DBB122DACD7200762AD0 /* Main.storyboard */; };
 		27D9DBB522DACD7300762AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D9DBB422DACD7300762AD0 /* Assets.xcassets */; };
 		27D9DBB822DACD7300762AD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D9DBB622DACD7300762AD0 /* LaunchScreen.storyboard */; };
-		27D9DBC022DAD2AD00762AD0 /* PickledSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 27D9DBBF22DAD2AD00762AD0 /* PickledSwift.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		271FF62222DAD8F300888625 /* StoredProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredProperty.swift; sourceTree = "<group>"; };
-		2724F7A222DD650400500F03 /* PickledSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledSlider.swift; path = PickledSwift/PickledSlider.swift; sourceTree = SOURCE_ROOT; };
-		2724F7A322DD650400500F03 /* PickledSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledSegmentedControl.swift; path = PickledSwift/PickledSegmentedControl.swift; sourceTree = SOURCE_ROOT; };
-		2724F7A422DD650400500F03 /* PickledSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledSearchBar.swift; path = PickledSwift/PickledSearchBar.swift; sourceTree = SOURCE_ROOT; };
-		2724F7A522DD650500500F03 /* PickledTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledTextField.swift; path = PickledSwift/PickledTextField.swift; sourceTree = SOURCE_ROOT; };
-		2724F7A622DD650500500F03 /* PickledSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickledSwift.h; path = PickledSwift/PickledSwift.h; sourceTree = SOURCE_ROOT; };
-		2724F7A722DD650500500F03 /* PickledButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledButton.swift; path = PickledSwift/PickledButton.swift; sourceTree = SOURCE_ROOT; };
-		2724F7A822DD650500500F03 /* PickledLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledLabel.swift; path = PickledSwift/PickledLabel.swift; sourceTree = SOURCE_ROOT; };
-		2724F7A922DD650500500F03 /* PickledSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickledSwitch.swift; path = PickledSwift/PickledSwitch.swift; sourceTree = SOURCE_ROOT; };
-		2724F7B322DD655500500F03 /* UILabel+FontSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel+FontSize.swift"; path = "PickledSwift/UILabel+FontSize.swift"; sourceTree = SOURCE_ROOT; };
-		2724F7BC22DD658200500F03 /* HorizontalPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HorizontalPicker.swift; path = PickledSwift/HorizontalPicker.swift; sourceTree = SOURCE_ROOT; };
-		2724F7CD22DD674000500F03 /* UIColor+Pallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+Pallet.swift"; path = "PickledSwift/UIColor+Pallet.swift"; sourceTree = SOURCE_ROOT; };
-		2724F7D122DD67AB00500F03 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "PickledSwift/UIColor+Hex.swift"; sourceTree = SOURCE_ROOT; };
-		2763E2E922DD893700D8607D /* PickledViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickledViewController.swift; sourceTree = "<group>"; };
-		2763E2ED22DD8B7F00D8607D /* TextFieldDelegate+TextFieldShouldReturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFieldDelegate+TextFieldShouldReturn.swift"; sourceTree = "<group>"; };
-		2763E2EF22DD8BF300D8607D /* String+AsUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+AsUIColor.swift"; path = "PickledSwift/String+AsUIColor.swift"; sourceTree = SOURCE_ROOT; };
-		2763E2F622DD8D0D00D8607D /* Device+ModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+ModelType.swift"; sourceTree = "<group>"; };
-		276CC64422E11A1E008ADDBE /* String+Capitalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Capitalize.swift"; sourceTree = "<group>"; };
-		2793B6E222E125CC002F4132 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReusableView.swift; path = PickledSwift/ReusableView.swift; sourceTree = SOURCE_ROOT; };
-		2793B6E422E125ED002F4132 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "PickledSwift/UIColor+Hex.swift"; sourceTree = SOURCE_ROOT; };
-		2793B6E622E125F4002F4132 /* UIColor+Pallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Pallet.swift"; path = "PickledSwift/UIColor+Pallet.swift"; sourceTree = SOURCE_ROOT; };
-		2793B6E822E12630002F4132 /* Adjacent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Adjacent.swift; path = PickledSwift/Adjacent.swift; sourceTree = SOURCE_ROOT; };
-		27A9661422DEBFB2004B3A5B /* UICircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UICircleButton.swift; path = PickledSwift/UICircleButton.swift; sourceTree = SOURCE_ROOT; };
+		2782EC0022EE2C9F004841CE /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
 		27D9DB9C22DACD4200762AD0 /* PickledSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PickledSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27D9DB9F22DACD4200762AD0 /* PickledSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickledSwift.h; sourceTree = "<group>"; };
-		27D9DBA022DACD4200762AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27D9DBAB22DACD7200762AD0 /* PickledSwiftExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickledSwiftExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D9DBAD22DACD7200762AD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27D9DBAF22DACD7200762AD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +25,6 @@
 		27D9DBB422DACD7300762AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27D9DBB722DACD7300762AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27D9DBB922DACD7300762AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27D9DBBF22DAD2AD00762AD0 /* PickledSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PickledSwift.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,83 +45,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2724F79022DD430800500F03 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				2793B6E222E125CC002F4132 /* ReusableView.swift */,
-				2724F7BC22DD658200500F03 /* HorizontalPicker.swift */,
-				27A9661422DEBFB2004B3A5B /* UICircleButton.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		2763E2E822DD891E00D8607D /* View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				2763E2E922DD893700D8607D /* PickledViewController.swift */,
-			);
-			name = "View Controller";
-			sourceTree = "<group>";
-		};
-		2763E2F222DD8CA600D8607D /* Pickled Views */ = {
-			isa = PBXGroup;
-			children = (
-				2724F7A722DD650500500F03 /* PickledButton.swift */,
-				2724F7A822DD650500500F03 /* PickledLabel.swift */,
-				2724F7A422DD650400500F03 /* PickledSearchBar.swift */,
-				2724F7A322DD650400500F03 /* PickledSegmentedControl.swift */,
-				2724F7A222DD650400500F03 /* PickledSlider.swift */,
-				2724F7A922DD650500500F03 /* PickledSwitch.swift */,
-				2724F7A522DD650500500F03 /* PickledTextField.swift */,
-			);
-			name = "Pickled Views";
-			sourceTree = "<group>";
-		};
-		2763E2F322DD8CB900D8607D /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				2724F7D122DD67AB00500F03 /* UIColor+Hex.swift */,
-				2724F7CD22DD674000500F03 /* UIColor+Pallet.swift */,
-			);
-			name = UIColor;
-			sourceTree = "<group>";
-		};
-		2763E2F422DD8CCF00D8607D /* UIImage */ = {
-			isa = PBXGroup;
-			children = (
-				2793B6E422E125ED002F4132 /* UIColor+Hex.swift */,
-				2793B6E622E125F4002F4132 /* UIColor+Pallet.swift */,
-			);
-			name = UIImage;
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		2763E2F522DD8CE000D8607D /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				2763E2F422DD8CCF00D8607D /* UIImage */,
-				2763E2F322DD8CB900D8607D /* UIColor */,
-				2763E2ED22DD8B7F00D8607D /* TextFieldDelegate+TextFieldShouldReturn.swift */,
-				2724F7B322DD655500500F03 /* UILabel+FontSize.swift */,
-				2763E2EF22DD8BF300D8607D /* String+AsUIColor.swift */,
-				2763E2F622DD8D0D00D8607D /* Device+ModelType.swift */,
-				276CC64422E11A1E008ADDBE /* String+Capitalize.swift */,
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
-		2763E2F822DD8FBE00D8607D /* Enum */ = {
-			isa = PBXGroup;
-			children = (
-				2793B6E822E12630002F4132 /* Adjacent.swift */,
-			);
-			path = Enum;
-			sourceTree = "<group>";
-		};
 		27D9DB9222DACD4200762AD0 = {
 			isa = PBXGroup;
 			children = (
-				27D9DB9E22DACD4200762AD0 /* PickledSwift */,
+				2782EC0022EE2C9F004841CE /* Source */,
 				27D9DBAC22DACD7200762AD0 /* PickledSwiftExamples */,
 				27D9DB9D22DACD4200762AD0 /* Products */,
 				627B8CED6E59569DDCAFF6B4 /* Pods */,
@@ -184,23 +62,6 @@
 				27D9DBAB22DACD7200762AD0 /* PickledSwiftExamples.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		27D9DB9E22DACD4200762AD0 /* PickledSwift */ = {
-			isa = PBXGroup;
-			children = (
-				2763E2F822DD8FBE00D8607D /* Enum */,
-				2763E2F522DD8CE000D8607D /* Extensions */,
-				2763E2F222DD8CA600D8607D /* Pickled Views */,
-				2763E2E822DD891E00D8607D /* View Controller */,
-				2724F79022DD430800500F03 /* Views */,
-				27D9DBBF22DAD2AD00762AD0 /* PickledSwift.podspec */,
-				27D9DB9F22DACD4200762AD0 /* PickledSwift.h */,
-				2724F7A622DD650500500F03 /* PickledSwift.h */,
-				27D9DBA022DACD4200762AD0 /* Info.plist */,
-				271FF62222DAD8F300888625 /* StoredProperty.swift */,
-			);
-			path = PickledSwift;
 			sourceTree = "<group>";
 		};
 		27D9DBAC22DACD7200762AD0 /* PickledSwiftExamples */ = {
@@ -230,8 +91,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D9DBA122DACD4200762AD0 /* PickledSwift.h in Headers */,
-				2724F7AE22DD650500500F03 /* PickledSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D9DBC022DAD2AD00762AD0 /* PickledSwift.podspec in Resources */,
+				2782EC0122EE2C9F004841CE /* Source in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,28 +196,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2793B6E522E125ED002F4132 /* UIColor+Hex.swift in Sources */,
-				2724F7B022DD650500500F03 /* PickledLabel.swift in Sources */,
-				2724F7AA22DD650500500F03 /* PickledSlider.swift in Sources */,
-				2793B6E722E125F4002F4132 /* UIColor+Pallet.swift in Sources */,
-				2724F7D222DD67AB00500F03 /* UIColor+Hex.swift in Sources */,
-				276CC64522E11A1E008ADDBE /* String+Capitalize.swift in Sources */,
-				2763E2F022DD8BF300D8607D /* String+AsUIColor.swift in Sources */,
-				2763E2EA22DD893700D8607D /* PickledViewController.swift in Sources */,
-				2724F7AB22DD650500500F03 /* PickledSegmentedControl.swift in Sources */,
-				2724F7AC22DD650500500F03 /* PickledSearchBar.swift in Sources */,
-				2724F7B122DD650500500F03 /* PickledSwitch.swift in Sources */,
-				2724F7CE22DD674000500F03 /* UIColor+Pallet.swift in Sources */,
-				2724F7BD22DD658200500F03 /* HorizontalPicker.swift in Sources */,
-				2724F7AD22DD650500500F03 /* PickledTextField.swift in Sources */,
-				2793B6E322E125CC002F4132 /* ReusableView.swift in Sources */,
-				2793B6E922E12630002F4132 /* Adjacent.swift in Sources */,
-				271FF62322DAD8F300888625 /* StoredProperty.swift in Sources */,
-				2763E2F722DD8D0D00D8607D /* Device+ModelType.swift in Sources */,
-				27A9661522DEBFB2004B3A5B /* UICircleButton.swift in Sources */,
-				2724F7B822DD655500500F03 /* UILabel+FontSize.swift in Sources */,
-				2724F7AF22DD650500500F03 /* PickledButton.swift in Sources */,
-				2763E2EE22DD8B7F00D8607D /* TextFieldDelegate+TextFieldShouldReturn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,7 +365,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PickledSwift/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -555,7 +392,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PickledSwift/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

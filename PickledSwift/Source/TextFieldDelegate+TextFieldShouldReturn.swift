@@ -8,9 +8,9 @@
 
 import Foundation
 
-
-extension UITextFieldDelegate {
-    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+//should force delegate to always return
+public extension UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
     }

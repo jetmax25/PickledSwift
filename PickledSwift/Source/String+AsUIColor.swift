@@ -7,6 +7,8 @@
 //
 
 public extension String {
+    
+    /// Converts the string to a color, returns nil if not found
     var asUIColor: UIColor? {
         return UIColor(hexString: self)
     }
