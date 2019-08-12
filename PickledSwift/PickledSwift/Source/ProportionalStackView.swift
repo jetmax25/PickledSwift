@@ -9,7 +9,7 @@
 
 ///Datasourace for prop view
 public protocol ProportionViewDataSource {
-    var propViews: [PropView] { get }
+    var propViews: [ProportionView] { get }
 }
 
 ///Holds multiple views and displays them proportionally
