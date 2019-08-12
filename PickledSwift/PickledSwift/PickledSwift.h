@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double PickledSwiftVersionNumber;
 FOUNDATION_EXPORT const unsigned char PickledSwiftVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PickledSwift/PublicHeader.h>
-
-

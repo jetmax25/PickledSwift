@@ -15,7 +15,11 @@ open class ReusableView: UIView {
         return String(describing: self)
     }
     
-    override init(frame: CGRect) {
+    convenience public init() {
+        self.init(frame: CGRect.zero)
+    }
+    
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         setUp()
     }

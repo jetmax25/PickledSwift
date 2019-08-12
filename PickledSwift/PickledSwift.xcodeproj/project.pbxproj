@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04949F6BBE1B8B67E71F371E /* Pods_PickledSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CFC4ACF8D7891EE249F908 /* Pods_PickledSwift.framework */; };
 		270338EE22EE41A000B9E1A2 /* PickledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270338D122EE41A000B9E1A2 /* PickledViewController.swift */; };
 		270338EF22EE41A000B9E1A2 /* PickledSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270338D222EE41A000B9E1A2 /* PickledSlider.swift */; };
 		270338F022EE41A000B9E1A2 /* TextFieldDelegate+TextFieldShouldReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270338D322EE41A000B9E1A2 /* TextFieldDelegate+TextFieldShouldReturn.swift */; };
@@ -37,14 +38,22 @@
 		2703390922EE41A000B9E1A2 /* UICircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270338EC22EE41A000B9E1A2 /* UICircleButton.swift */; };
 		2715C56222EE428E004F5C1E /* PickledSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2715C56122EE428E004F5C1E /* PickledSwift.podspec */; };
 		2724F7AE22DD650500500F03 /* PickledSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 2724F7A622DD650500500F03 /* PickledSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27B801DA22FE92E800043BE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B801D922FE92E800043BE7 /* ViewController.swift */; };
+		27B801DB22FE93B300043BE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B801D922FE92E800043BE7 /* ViewController.swift */; };
 		27D9DBAE22DACD7200762AD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9DBAD22DACD7200762AD0 /* AppDelegate.swift */; };
-		27D9DBB022DACD7200762AD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9DBAF22DACD7200762AD0 /* ViewController.swift */; };
 		27D9DBB322DACD7200762AD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D9DBB122DACD7200762AD0 /* Main.storyboard */; };
 		27D9DBB522DACD7300762AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D9DBB422DACD7300762AD0 /* Assets.xcassets */; };
 		27D9DBB822DACD7300762AD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D9DBB622DACD7300762AD0 /* LaunchScreen.storyboard */; };
+		27EAAE77230218290057E105 /* ProportionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EAAE76230218290057E105 /* ProportionView.swift */; };
+		27EAAE792302186C0057E105 /* ProportionalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EAAE782302186B0057E105 /* ProportionalStackView.swift */; };
+		27EAAE7C23021D870057E105 /* ProportionViewOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EAAE7B23021D870057E105 /* ProportionViewOrder.swift */; };
+		27EAAE7E23021DCB0057E105 /* UIStackView+removeAllArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EAAE7D23021DCB0057E105 /* UIStackView+removeAllArrangedSubviews.swift */; };
+		B495BD930C5E490B89C98CFE /* Pods_PickledSwiftExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50318F75A51FA94495E46418 /* Pods_PickledSwiftExamples.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03CFC4ACF8D7891EE249F908 /* Pods_PickledSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickledSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1FE3390B31B831598782A8 /* Pods-PickledSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickledSwift.release.xcconfig"; path = "Target Support Files/Pods-PickledSwift/Pods-PickledSwift.release.xcconfig"; sourceTree = "<group>"; };
 		2703389722EE40BE00B9E1A2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		270338D122EE41A000B9E1A2 /* PickledViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickledViewController.swift; sourceTree = "<group>"; };
 		270338D222EE41A000B9E1A2 /* PickledSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickledSlider.swift; sourceTree = "<group>"; };
@@ -76,14 +85,22 @@
 		270338EC22EE41A000B9E1A2 /* UICircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICircleButton.swift; sourceTree = "<group>"; };
 		2715C56122EE428E004F5C1E /* PickledSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PickledSwift.podspec; sourceTree = SOURCE_ROOT; };
 		2724F7A622DD650500500F03 /* PickledSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickledSwift.h; sourceTree = SOURCE_ROOT; };
+		27B801D922FE92E800043BE7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../Desktop/ViewController.swift; sourceTree = "<group>"; };
 		27D9DB9C22DACD4200762AD0 /* PickledSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PickledSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D9DBAB22DACD7200762AD0 /* PickledSwiftExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickledSwiftExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D9DBAD22DACD7200762AD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27D9DBAF22DACD7200762AD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27D9DBB222DACD7200762AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27D9DBB422DACD7300762AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27D9DBB722DACD7300762AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27D9DBB922DACD7300762AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EAAE76230218290057E105 /* ProportionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionView.swift; sourceTree = "<group>"; };
+		27EAAE782302186B0057E105 /* ProportionalStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionalStackView.swift; sourceTree = "<group>"; };
+		27EAAE7B23021D870057E105 /* ProportionViewOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProportionViewOrder.swift; sourceTree = "<group>"; };
+		27EAAE7D23021DCB0057E105 /* UIStackView+removeAllArrangedSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+removeAllArrangedSubviews.swift"; sourceTree = "<group>"; };
+		312E8F11D6C4068C246B0D84 /* Pods-PickledSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickledSwift.debug.xcconfig"; path = "Target Support Files/Pods-PickledSwift/Pods-PickledSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		33AFA8ADCBC302118A4E8D2E /* Pods-PickledSwiftExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickledSwiftExamples.debug.xcconfig"; path = "Target Support Files/Pods-PickledSwiftExamples/Pods-PickledSwiftExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		50318F75A51FA94495E46418 /* Pods_PickledSwiftExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickledSwiftExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EFED1B390597F1AD238E1A /* Pods-PickledSwiftExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickledSwiftExamples.release.xcconfig"; path = "Target Support Files/Pods-PickledSwiftExamples/Pods-PickledSwiftExamples.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04949F6BBE1B8B67E71F371E /* Pods_PickledSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B495BD930C5E490B89C98CFE /* Pods_PickledSwiftExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +165,10 @@
 				270338EA22EE41A000B9E1A2 /* PickledLabel.swift */,
 				270338EB22EE41A000B9E1A2 /* ReusableView.swift */,
 				270338EC22EE41A000B9E1A2 /* UICircleButton.swift */,
+				27EAAE76230218290057E105 /* ProportionView.swift */,
+				27EAAE782302186B0057E105 /* ProportionalStackView.swift */,
+				27EAAE7B23021D870057E105 /* ProportionViewOrder.swift */,
+				27EAAE7D23021DCB0057E105 /* UIStackView+removeAllArrangedSubviews.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -157,6 +180,7 @@
 				27D9DBAC22DACD7200762AD0 /* PickledSwiftExamples */,
 				27D9DB9D22DACD4200762AD0 /* Products */,
 				627B8CED6E59569DDCAFF6B4 /* Pods */,
+				E6630AF611751653783363FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,7 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				27D9DBAD22DACD7200762AD0 /* AppDelegate.swift */,
-				27D9DBAF22DACD7200762AD0 /* ViewController.swift */,
+				27B801D922FE92E800043BE7 /* ViewController.swift */,
 				27D9DBB122DACD7200762AD0 /* Main.storyboard */,
 				27D9DBB422DACD7300762AD0 /* Assets.xcassets */,
 				27D9DBB622DACD7300762AD0 /* LaunchScreen.storyboard */,
@@ -185,8 +209,21 @@
 		627B8CED6E59569DDCAFF6B4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				312E8F11D6C4068C246B0D84 /* Pods-PickledSwift.debug.xcconfig */,
+				1D1FE3390B31B831598782A8 /* Pods-PickledSwift.release.xcconfig */,
+				33AFA8ADCBC302118A4E8D2E /* Pods-PickledSwiftExamples.debug.xcconfig */,
+				A9EFED1B390597F1AD238E1A /* Pods-PickledSwiftExamples.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6630AF611751653783363FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03CFC4ACF8D7891EE249F908 /* Pods_PickledSwift.framework */,
+				50318F75A51FA94495E46418 /* Pods_PickledSwiftExamples.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27D9DBA422DACD4200762AD0 /* Build configuration list for PBXNativeTarget "PickledSwift" */;
 			buildPhases = (
+				A6F89801F495F785CBF9B5C2 /* [CP] Check Pods Manifest.lock */,
 				27D9DB9722DACD4200762AD0 /* Headers */,
 				27D9DB9822DACD4200762AD0 /* Sources */,
 				27D9DB9922DACD4200762AD0 /* Frameworks */,
@@ -226,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27D9DBBA22DACD7300762AD0 /* Build configuration list for PBXNativeTarget "PickledSwiftExamples" */;
 			buildPhases = (
+				1ADD810D8E9FEAA46F985668 /* [CP] Check Pods Manifest.lock */,
 				27D9DBA722DACD7200762AD0 /* Sources */,
 				27D9DBA822DACD7200762AD0 /* Frameworks */,
 				27D9DBA922DACD7200762AD0 /* Resources */,
@@ -298,6 +337,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ADD810D8E9FEAA46F985668 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickledSwiftExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F89801F495F785CBF9B5C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickledSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27D9DB9822DACD4200762AD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -306,8 +392,10 @@
 				2703390422EE41A000B9E1A2 /* String+AsUIColor.swift in Sources */,
 				270338F522EE41A000B9E1A2 /* UIColor+Hex.swift in Sources */,
 				2703390922EE41A000B9E1A2 /* UICircleButton.swift in Sources */,
+				27EAAE7E23021DCB0057E105 /* UIStackView+removeAllArrangedSubviews.swift in Sources */,
 				270338F222EE41A000B9E1A2 /* PickledSegmentedControl.swift in Sources */,
 				2703390022EE41A000B9E1A2 /* Month.swift in Sources */,
+				27EAAE77230218290057E105 /* ProportionView.swift in Sources */,
 				2703390722EE41A000B9E1A2 /* PickledLabel.swift in Sources */,
 				270338F422EE41A000B9E1A2 /* UIImage+ContentClippingRect.swift in Sources */,
 				270338FE22EE41A000B9E1A2 /* Adjacent.swift in Sources */,
@@ -321,15 +409,18 @@
 				2703390322EE41A000B9E1A2 /* UIColor+Pallet.swift in Sources */,
 				270338FA22EE41A000B9E1A2 /* UIImage+Download.swift in Sources */,
 				270338F822EE41A000B9E1A2 /* PickledTextField.swift in Sources */,
+				27B801DB22FE93B300043BE7 /* ViewController.swift in Sources */,
 				2703390522EE41A000B9E1A2 /* Date_Extensions.swift in Sources */,
 				270338F122EE41A000B9E1A2 /* PickledSwitch.swift in Sources */,
 				270338EE22EE41A000B9E1A2 /* PickledViewController.swift in Sources */,
 				270338EF22EE41A000B9E1A2 /* PickledSlider.swift in Sources */,
+				27EAAE792302186C0057E105 /* ProportionalStackView.swift in Sources */,
 				270338FF22EE41A000B9E1A2 /* UILabel+FontSize.swift in Sources */,
 				2703390122EE41A000B9E1A2 /* ViewController+ShowAlert.swift in Sources */,
 				270338F722EE41A000B9E1A2 /* PickledButton.swift in Sources */,
 				270338F022EE41A000B9E1A2 /* TextFieldDelegate+TextFieldShouldReturn.swift in Sources */,
 				2703390222EE41A000B9E1A2 /* Device+ModelType.swift in Sources */,
+				27EAAE7C23021D870057E105 /* ProportionViewOrder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D9DBB022DACD7200762AD0 /* ViewController.swift in Sources */,
+				27B801DA22FE92E800043BE7 /* ViewController.swift in Sources */,
 				27D9DBAE22DACD7200762AD0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +581,7 @@
 		};
 		27D9DBA522DACD4200762AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312E8F11D6C4068C246B0D84 /* Pods-PickledSwift.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -517,6 +609,7 @@
 		};
 		27D9DBA622DACD4200762AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D1FE3390B31B831598782A8 /* Pods-PickledSwift.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -543,6 +636,7 @@
 		};
 		27D9DBBB22DACD7300762AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33AFA8ADCBC302118A4E8D2E /* Pods-PickledSwiftExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -561,6 +655,7 @@
 		};
 		27D9DBBC22DACD7300762AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9EFED1B390597F1AD238E1A /* Pods-PickledSwiftExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
