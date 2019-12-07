@@ -47,6 +47,7 @@
 		27EAAE7C23021D870057E105 /* ProportionViewOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EAAE7B23021D870057E105 /* ProportionViewOrder.swift */; };
 		27EAAE7E23021DCB0057E105 /* UIStackView+removeAllArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EAAE7D23021DCB0057E105 /* UIStackView+removeAllArrangedSubviews.swift */; };
 		B495BD930C5E490B89C98CFE /* Pods_PickledSwiftExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50318F75A51FA94495E46418 /* Pods_PickledSwiftExamples.framework */; };
+		D47FDFB530EDC522C50F8FD1 /* Pods_PickledSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CFC4ACF8D7891EE249F908 /* Pods_PickledSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D47FDFB530EDC522C50F8FD1 /* Pods_PickledSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
