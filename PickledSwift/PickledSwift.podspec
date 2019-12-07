@@ -35,6 +35,6 @@ spec.swift_version = "5.0"
 
 
 
-  #spec.source_files  = "PickledSwift/PickledSwift/Source/**/*.{h,m,swift}"
-  spec.source_files  = "PickledSwift/Source/**/*.{h,m,swift}"
+  spec.source_files  = "PickledSwift/PickledSwift/Source/**/*.{h,m,swift}"
+  #spec.source_files  = "PickledSwift/Source/**/*.{h,m,swift}"
 end
