@@ -12,7 +12,7 @@ public protocol Proportional {
     var order: Int { get set }
 }
 
-open class ProportionView: UIView, Proportional {
+open public class ProportionView: UIView, Proportional {
     
     public var weight: Double = 1.0 {
         didSet {
