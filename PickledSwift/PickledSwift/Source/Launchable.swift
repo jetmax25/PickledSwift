@@ -22,7 +22,6 @@ public extension Launchable {
         UIApplication.shared.delegate?.window??.rootViewController = storyboard
     }
     
-    
     /// get the storyboard
     private var storyboard : UIViewController? {
         let storyboard = UIStoryboard(name: self.rawValue, bundle: nil)

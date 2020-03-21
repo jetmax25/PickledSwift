@@ -22,7 +22,6 @@ struct SimpleDate {
         }
     }
     
-    
     /// Init by giving date parameters
     ///
     /// - Parameters:
